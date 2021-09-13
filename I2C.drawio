@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T08:37:20.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="cszE4xypmE_ptM2GjStW" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-13T09:01:33.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="eCZOKWxiBuWXFP2ZzekK" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="I2C Diagram">
-    <mxGraphModel dx="3096" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
+    <mxGraphModel dx="3808" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -317,6 +317,15 @@
         </mxCell>
         <mxCell id="vuCsuV92tiSEWa9CnFil-155" value="test_case = &#xa;{&#xa;number:&#xa;	    {&#xa;	        single_name:single_name:str,&#xa;	        device:device:str,&#xa;	        measures:&#xa;            {&#xa;                mesaure_name: {&quot;value&quot;: value, &quot;pic_path&quot;: None},                &#xa;                mesaure_name: {&quot;value&quot;: value, &quot;pic_path&quot;: None},&#xa;                ...&#xa;            }&#xa;    },&#xa;number:&#xa;    {&#xa;        single_name:single_name:str,&#xa;        device:device:str,&#xa;        measures:&#xa;            {                 &#xa;                mesaure_name: {&quot;value&quot;: value, &quot;pic_path&quot;: None},                &#xa;                mesaure_name: {&quot;value&quot;: value, &quot;pic_path&quot;: None},&#xa;                ...&#xa;            }&#xa;    },&#xa;...&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;strokeColor=#000000;fontColor=#FFFFFF;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-460" y="720" width="560" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-156" value="self.osc_signal_json =&#xa;{&#xa;    &quot;test_cmd&quot;:{&#xa;        &quot;Delay&quot;:{&#xa;            &quot;Risehigh&quot;: &quot;70.0&quot;,&#xa;            &quot;Riselow&quot;: &quot;30.0&quot;,&#xa;            &quot;Fallhigh&quot;: &quot;70.0&quot;,&#xa;            &quot;Falllow&quot;: &quot;30.0&quot;&#xa;        }&#xa;    },&#xa;    &quot;Measurement&quot;: {&#xa;        &quot;THD_DAT&quot;: {&#xa;            &quot;Mode&quot;: &quot;SDA&quot;,&#xa;            &quot;Type&quot;: &quot;Delay&quot;,&#xa;            &quot;Source&quot;: &quot;CH1&amp;CH2&quot;,&#xa;            &quot;Risefall&quot;: &quot;Fall&quot;,&#xa;            &quot;Risemid&quot;: &quot;30.0&quot;,&#xa;            &quot;Fallmid&quot;: &quot;70.0&quot;&#xa;        },&#xa;        &quot;TSU_DAT&quot;: {&#xa;            &quot;Mode&quot;: &quot;SDA&quot;,&#xa;            &quot;Type&quot;: &quot;Delay&quot;,&#xa;            &quot;Source&quot;: &quot;CH2&amp;CH1&quot;,&#xa;            &quot;Risefall&quot;: &quot;Rise&quot;,&#xa;            &quot;Risemid&quot;: &quot;70.0&quot;,&#xa;            &quot;Fallmid&quot;: &quot;30.0&quot;&#xa;        },&#xa;        &quot;SCL_ViL&quot;: {&#xa;            &quot;Mode&quot;: &quot;SCL&quot;,&#xa;            &quot;Type&quot;: &quot;Minimum&amp;base&quot;,&#xa;            &quot;Source&quot;: &quot;CH1&quot;&#xa;        },&#xa;        ...&#xa;    }&#xa;}" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;fontColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1830" y="390" width="330" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-158" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fontSize=18;fontColor=#FFFFFF;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="vuCsuV92tiSEWa9CnFil-156">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="1354" y="764.29" as="sourcePoint" />
+            <mxPoint x="1514" y="764.29" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

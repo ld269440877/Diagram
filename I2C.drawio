@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T09:01:33.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="eCZOKWxiBuWXFP2ZzekK" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-13T09:02:11.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yrRR75yr8JNKexcTjd61" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="I2C Diagram">
     <mxGraphModel dx="3808" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
         <mxCell id="vuCsuV92tiSEWa9CnFil-92" value="__init__(self, kwargs:dict)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-90">
           <mxGeometry y="26" width="626" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vuCsuV92tiSEWa9CnFil-121" value="    self.osc_signal_json" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-90">
+        <mxCell id="vuCsuV92tiSEWa9CnFil-121" value="    self.osc_signal_json" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#ffffff;fontSize=18;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-90">
           <mxGeometry y="52" width="626" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vuCsuV92tiSEWa9CnFil-91" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#283618;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-90">
@@ -220,7 +220,7 @@
         <mxCell id="vuCsuV92tiSEWa9CnFil-114" value="__init__(self, ip, osc, msg_text)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
           <mxGeometry y="26" width="626" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vuCsuV92tiSEWa9CnFil-120" value="    self.osc_signal_json&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
+        <mxCell id="vuCsuV92tiSEWa9CnFil-120" value="    self.osc_signal_json&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#ffffff;fontSize=18;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
           <mxGeometry y="52" width="626" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vuCsuV92tiSEWa9CnFil-113" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#283618;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">

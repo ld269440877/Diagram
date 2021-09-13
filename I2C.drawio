@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T04:14:21.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="rI7qFkL1cKYP_nwEComK" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-13T04:29:41.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="RbX-FOZL6HFOYhBIAmM6" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="I2C Diagram">
     <mxGraphModel dx="1940" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
@@ -227,11 +227,70 @@
         <mxCell id="vuCsuV92tiSEWa9CnFil-117" value="setup_measure(self, signal_list, measure_name)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
           <mxGeometry y="164" width="626" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vuCsuV92tiSEWa9CnFil-118" value="get_value(self, measure_name)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
+        <mxCell id="vuCsuV92tiSEWa9CnFil-118" value="get_value(self, measure_name)--self.osc_signal_json" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
           <mxGeometry y="190" width="626" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vuCsuV92tiSEWa9CnFil-119" value="get_pic_path(self, signal_list, Device, measure_name)--&gt;pic_path:str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FEFAE0;fontSize=18;" vertex="1" parent="vuCsuV92tiSEWa9CnFil-112">
           <mxGeometry y="216" width="626" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-127" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=36;fontColor=#FEFAE0;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.3281" width="160" relative="1" as="geometry">
+            <mxPoint x="1370" y="1290" as="sourcePoint" />
+            <mxPoint x="1370" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760" y="1290" />
+              <mxPoint x="1760" y="790" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-128" value="self.my_instrument.write(init_cmd)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1810" y="1230" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-129" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=36;fontColor=#FEFAE0;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vuCsuV92tiSEWa9CnFil-116">
+          <mxGeometry x="-0.4231" width="160" relative="1" as="geometry">
+            <mxPoint x="1370" y="1310" as="sourcePoint" />
+            <mxPoint x="1356" y="825" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1700" y="1330" />
+              <mxPoint x="1700" y="1050" />
+              <mxPoint x="1700" y="830" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-130" value="self.my_instrument.write(init_test_cmds)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1750" y="1320" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-131" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=36;fontColor=#FEFAE0;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;entryX=0.989;entryY=-0.201;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="vuCsuV92tiSEWa9CnFil-96">
+          <mxGeometry x="-0.4883" width="160" relative="1" as="geometry">
+            <mxPoint x="1360" y="1350" as="sourcePoint" />
+            <mxPoint x="1760" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1660" y="1360" />
+              <mxPoint x="1670" y="849" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-133" value="self.my_instrument.write(measure_cmd)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1690" y="1360" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-134" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=36;fontColor=#FEFAE0;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="730" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuCsuV92tiSEWa9CnFil-135" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=36;fontColor=#FEFAE0;strokeColor=#1CFF6F;strokeWidth=5;fillColor=#BC6C25;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.0809" y="-19" width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="730" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="850" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
